@@ -1,6 +1,17 @@
-fn main()
- {
-    let a: u8 = 255;
-    let b = a.wrapping_add(20);
-    println!("{}", b); // 19
+enum Direction {
+    East,
+    West,
+    North,
+    South,
+}
+
+fn main() {
+    let dire = Direction::South;
+    match dire {
+        Direction::East => println!("East"),
+        Direction::North | Direction::South => {
+            println!("South or North");
+        },
+        _ => println!("West"),
+    };
 }
