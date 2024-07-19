@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.8.5"
+hammer = { version = "0.1.0"}
+# color = { git = "https://github.com/bjz/color-rs" }
+# geometry = { path = "crates/geometry" }

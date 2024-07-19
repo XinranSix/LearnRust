@@ -17,6 +17,6 @@ fn read(f: &mut File, save_to: &mut Vec<u8>) -> ! {
 fn main() {
     let mut f1 = File::from("f1.txt");
     open(&mut f1);
-    // read(&mut f1, &mut vec![]);
+    // read(&mut f1, vec![]);
     close(&mut f1);
 }

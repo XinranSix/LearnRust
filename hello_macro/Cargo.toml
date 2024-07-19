@@ -1,0 +1,9 @@
+[package]
+name = "hello_macro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hello_macro_derive = { path = "../hello_macro/hello_macro_derive" }
+# 也可以使用下面的相对路径
+# hello_macro_derive = { path = "./hello_macro_derive" }
